@@ -1,0 +1,29 @@
+{
+    "name": "jesuswasrasta/extremecollaborativeprogramming",
+    "license": "GPL-3.0",
+    "description": "ExtremeCollaborativeProgramming",
+    "require-dev": {
+        "php": "^8",
+        "phpunit/phpunit": "*",
+        "squizlabs/php_codesniffer": "*"
+    },
+    "authors": [
+        {
+            "name": "Ferdinando Santacroce",
+            "email": "ferdinando.santacroce@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "config": {
+        "bin-dir": "bin"
+    },
+    "autoload": {
+        "classmap": [
+            "src/",
+            "tests/"
+        ],
+        "psr-4": {
+            "": ["src/", "tests/"]
+        }
+    }
+}
